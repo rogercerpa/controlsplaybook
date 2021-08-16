@@ -9,7 +9,7 @@ import { contactos } from '../../constants/constants';
 const Acomplishments = () => (
   <Section>
     <SectionTitle>Contactos</SectionTitle>
-        <SectionText>Lista de contactos de los diferentes grupos en Acuity Brands enfocados en controles de iluminación:</SectionText>
+        <SectionText>Lista de contactos de los diferentes grupos de Diseño & Aplicaciones, enfocados en controles de iluminación:</SectionText>
     <Boxes>
       {contactos.map(({team, id, members}) => (
         <Box key={id}>

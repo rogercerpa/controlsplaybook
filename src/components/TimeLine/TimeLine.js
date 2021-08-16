@@ -113,7 +113,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <Button onClick={()=> window.location = "https://secure.acuitybrandslighting.net/login.aspx?ReturnUrl=http%3a%2f%2fproduct.ablagileblog.acuitybrandslighting.net%2findex.php%3futm_source%3dSmartNews+July+15+Product+Update&utm_medium=email&utm_term=&utm_content=Ordering+Info&utm_campaign=Vellum"}  >Ingresa un RFA Ya!</Button>
+      <Button onClick={()=> window.location = "https://secure.acuitybrandslighting.net/login.aspx?ReturnUrl=http%3a%2f%2fproduct.ablagileblog.acuitybrandslighting.net%2findex.php%3futm_source%3dSmartNews+July+15+Product+Update&utm_medium=email&utm_term=&utm_content=Ordering+Info&utm_campaign=Vellum"}  >Aprende más!</Button>
       <SectionDivider />
     </Section>
   );

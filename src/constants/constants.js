@@ -68,31 +68,31 @@ export const servicios = [
 ];
 
 export const RequestForAssistance = [
-  { year: "Cliente", text: 'Started my journey', },
-  { year: "Agencia", text: 'Worked as a freelance developer', },
-  { year: "DAS", text: 'Founded JavaScript Mastery', },
-  { year: "RFA", text: 'Shared my projects with the world', },
-  { year: "QUOTE", text: 'Started my own platform', },
+  { year: "Cliente", text: 'Gather information', },
+  { year: "Agencia", text: 'Compile information', },
+  { year: "DAS", text: 'Design controls', },
+  { year: "RFA", text: 'Upload file and Create BOM', },
+  { year: "QUOTE", text: 'Submit for pricing and order', },
 ];
 
 export const tools = [
   {
     id: 0,
     title: "Visual Controls",
-    subtitle:'',
-    descriptions: 'El software Visual Controls admite el diseño y la especificación con Acuity Controls. Puede determinar rápidamente las cantidades de dispositivos para una oferta presupuestaria y generar una presentación profesional integral' ,
+    subtitle:'Engineered for Productivity',
+    descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '',
-    Link:'',
+    Link:'https://visual-3d.com/software/downloadvisualcontrols.aspx',
   },
   {
     id: 1,
     title: "Visual Lighting",
-    subtitle:'',
+    subtitle:'Engineered for Productivity',
     descriptions: '' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '',
-    link:'',
+    link:'https://visual-3d.com/software/visualhome.aspx',
   },
     {
     id: 2,
@@ -101,7 +101,7 @@ export const tools = [
     descriptions: '' ,
     features: ['PDF', 'Design', 'Quote'],
       image: '',
-    Link:'',
+    Link:'/Form',
   },
 ];
 
