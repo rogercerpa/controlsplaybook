@@ -2,10 +2,10 @@ import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants';
+import { RequestForAssistance } from '../../constants/constants';
 import Button from '../../styles/GlobalComponents/Button';
 
-const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
+const TOTAL_CAROUSEL_COUNT = RequestForAssistance.length;
 
 const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
@@ -51,7 +51,7 @@ const Timeline = () => {
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
-          {TimeLineData.map((item, index) => (
+          {RequestForAssistance.map((item, index) => (
             <CarouselMobileScrollNode key={index} final={index = TOTAL_CAROUSEL_COUNT -1}>
               <CarouselItem
                 index={index}
@@ -101,7 +101,7 @@ const Timeline = () => {
         </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((item, index) => (
+        {RequestForAssistance.map((item, index) => (
           <CarouselButton
             key={index}
             index={index}

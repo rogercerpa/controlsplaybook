@@ -1,24 +1,23 @@
 import React from 'react';
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle, SectionText } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { contactos } from '../../constants/constants';
 
-const data = [
-  { number: "Conyers", text: 'Open Source Projects'},
-  { number: "Ontario", text: 'Students', },
-  { number: "Chicago", text: 'Github Followers', },
-  { number: "Field Services", text: 'Github Stars', }
- 
-];
+
 
 const Acomplishments = () => (
   <Section>
     <SectionTitle>Contactos</SectionTitle>
+        <SectionText>Lista de contactos de los diferentes grupos en Acuity Brands enfocados en controles de iluminación:</SectionText>
     <Boxes>
-      {data.map((card, index) => (
-        <Box key={index}>
-          <BoxNum>{card.number}</BoxNum>
-          <BoxText>{card.text}</BoxText>
+      {contactos.map(({team, id, members}) => (
+        <Box key={id}>
+          <BoxNum>{team}</BoxNum>
+          {members.map((member, i) => (
+            <BoxText key={i}>{member}</BoxText>
+          ))}
+          
         </Box>
       ))}
     </Boxes>

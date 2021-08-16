@@ -48,12 +48,12 @@ export const Box = styled.div`
 `
 export const BoxNum = styled.h5`
   font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
+  font-weight: 500;
+  font-size: 25px;
   line-height: 40px;
   letter-spacing: 0.01em;
   color: #FFFFFF;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 28px;

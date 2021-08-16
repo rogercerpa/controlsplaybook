@@ -1,4 +1,4 @@
-export const projects = [
+export const servicios = [
   {
     title: 'Budget',
     subtitle:"Cotizacion estimada",
@@ -67,10 +67,48 @@ export const projects = [
   },
 ];
 
-export const TimeLineData = [
+export const RequestForAssistance = [
   { year: "Cliente", text: 'Started my journey', },
   { year: "Agencia", text: 'Worked as a freelance developer', },
   { year: "DAS", text: 'Founded JavaScript Mastery', },
   { year: "RFA", text: 'Shared my projects with the world', },
   { year: "QUOTE", text: 'Started my own platform', },
+];
+
+export const tools = [
+  {
+    id: 0,
+    title: "Visual Controls",
+    subtitle:'',
+    descriptions: 'El software Visual Controls admite el diseño y la especificación con Acuity Controls. Puede determinar rápidamente las cantidades de dispositivos para una oferta presupuestaria y generar una presentación profesional integral' ,
+    features: ['PDF', 'Design', 'Quote'],
+    image: '',
+    Link:'',
+  },
+  {
+    id: 1,
+    title: "Visual Lighting",
+    subtitle:'',
+    descriptions: '' ,
+    features: ['PDF', 'Design', 'Quote'],
+    image: '',
+    link:'',
+  },
+    {
+    id: 2,
+      title: "SOO",
+    subtitle:'Secuencia de Operacion',
+    descriptions: '' ,
+    features: ['PDF', 'Design', 'Quote'],
+      image: '',
+    Link:'',
+  },
+];
+
+export const contactos = [
+  { team: "Conyers DAS", members: ['Roger', 'Chris', 'Ty'], id: 0},
+  { team: "Ontario DAS", members: [''], id: 1 },
+  { team: "Chicago DAS", members: [''], id: 2 },
+  { team: "Field Services", members: [''], id: 3 }
+ 
 ];

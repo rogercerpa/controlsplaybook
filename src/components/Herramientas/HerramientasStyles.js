@@ -80,10 +80,30 @@ export const ListTitle = styled.h4`
   margin-bottom: 4px;
 }
 `
+export const ListSubTitle = styled.h5`
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 10px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 8px;
+
+@media ${props => props.theme.breakpoints.md}{
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media ${props => props.theme.breakpoints.sm}{
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  margin-bottom: 4px;
+}
+`
 
 export const ListParagraph = styled.p`
   font-size: 18px;
-  line-height: 30px;
+  line-height: 18px;
   color: rgba(255, 255, 255, 0.75);
 
   @media ${props => props.theme.breakpoints.md}{
