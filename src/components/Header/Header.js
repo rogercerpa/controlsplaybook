@@ -51,12 +51,12 @@ const Header = () =>  (
           <RiProductHuntLine size="3rem" /><Span1>Acuity Controls</Span1>
         </a>
       </SocialIcons>
-      <SocialIcons href="https://visual-3d.com/software/downloadvisualcontrols.aspx" target="_blank">
+      <SocialIcons href="https://visual-3d.com/" target="_blank">
         <a style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }}>
           <CgSoftwareDownload size="3rem" /><Span1>Visual Controls</Span1>
         </a>
       </SocialIcons>
-      <SocialIcons href="/SOO" >
+      <SocialIcons href="/Form" >
         <a style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }}>
           <AiOutlineForm size="3rem" /><Span1>SOO</Span1>
         </a>
