@@ -69,6 +69,7 @@ export const CompanyContainer = styled.div`
 	flex-wrap: wrap;
 	margin-right: auto;
 	
+	
 
 	@media ${props => props.theme.breakpoints.md}{
 		flex-direction: column;
@@ -107,6 +108,7 @@ export const Slogan = styled.p`
 export const SocialContainer = styled.div`
 	display: flex;
   align-items: center;
+
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;

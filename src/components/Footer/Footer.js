@@ -24,21 +24,25 @@ const Footer = () => {
           <Slogan>Lighting Controls made Easy</Slogan>
         </CompanyContainer>
         <SocialContainer>
-      <SocialIcons href="https://www.acuitybrands.com/products/controls" target="_blank">
-        <a style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }}>
+
+      <SocialIcons >
+        <a href="https://www.acuitybrands.com/products/controls" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }}>
           <RiProductHuntLine size="3rem" /><Span1>Acuity Controls</Span1>
         </a>
       </SocialIcons>
-      <SocialIcons href="https://visual-3d.com/software/downloadvisualcontrols.aspx" target="_blank">
-        <a style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }}>
+
+        <SocialIcons >
+        <a href="https://visual-3d.com/software/downloadvisualcontrols.aspx" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }}>
           <CgSoftwareDownload size="3rem" /><Span1>Visual Controls</Span1>
         </a>
       </SocialIcons>
-      <SocialIcons href="/SOO" >
-        <a style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }}>
-          <AiOutlineForm size="3rem" /><Span1>SOO</Span1>
+
+        <SocialIcons >
+            <a href="/Form" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }}>
+          <AiOutlineForm size="3rem" /><Span1>Forms Download</Span1>
         </a>
       </SocialIcons>
+
           </SocialContainer>
       </SocialIconsContainer>
    </FooterWrapper>
