@@ -83,13 +83,13 @@ export const tools = [
     descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '',
-    Link:'https://visual-3d.com/software/downloadvisualcontrols.aspx',
+    link:'https://visual-3d.com/software/downloadvisualcontrols.aspx',
   },
   {
     id: 1,
     title: "Visual Lighting",
     subtitle:'Engineered for Productivity',
-    descriptions: '' ,
+    descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Luminarias.' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '',
     link:'https://visual-3d.com/software/visualhome.aspx',
@@ -98,10 +98,10 @@ export const tools = [
     id: 2,
       title: "SOO",
     subtitle:'Secuencia de Operacion',
-    descriptions: '' ,
+    descriptions: 'Se recomienda seguir una secuencia de operaciones que indique exactamente cómo quiere el cliente que funcione el sistema. ' ,
     features: ['PDF', 'Design', 'Quote'],
       image: '',
-    Link:'/Form',
+    link:'/Form',
   },
 ];
 

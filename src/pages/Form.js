@@ -1,14 +1,20 @@
 import React from 'react';
 import { Layout } from '../layout/Layout';
-import { Section } from '../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle } from '../styles/GlobalComponents';
+import SOOForm from '../components/Form/SOOForm';
+
+
 const Form = () => {
     return (
-    <Layout> 
-        <Section>
-            <h1>Your Sequence of Operations Form</h1> 
-        </Section>
-    </Layout>
-    )
-}
+       
+        <Layout>
+            <Section>
+                <SectionTitle>Crea tu secuencia de operacion</SectionTitle>
+                <SectionText>Ingresa toda la informacion necesaria para tu diseno de control</SectionText>
+                <SOOForm/>
+            </Section>
+        </Layout>
+    );
+};
 
 export default Form

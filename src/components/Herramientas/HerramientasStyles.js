@@ -121,6 +121,17 @@ export const ListItem = styled.li`
   max-width: 320px;
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  text-align: center;
+  width: 500px;
+  padding: 10px;
+  
+  &:hover {
+    background-color: #212d45;
+    transform: scale(1);
+    cursor: pointer;
+  }
 
 @media ${props => props.theme.breakpoints.md}{
   max-width: 203px;

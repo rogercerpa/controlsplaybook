@@ -16,17 +16,24 @@ const Herramientas = () =>  (
     </SectionText>
     <List>
       {tools.map(({ id, title, subtitle, descriptions, features, image, link }) => (
+        <a href={link} target="_blank">
         <ListItem key={id}>
           <ListContainer>
             <ListTitle>{title}</ListTitle>
             <ListSubTitle>{subtitle}</ListSubTitle>
             <ListParagraph>{descriptions}</ListParagraph>
           </ListContainer>
-        </ListItem>
+          </ListItem>
+        </a>
+        
       ))}
 
     </List>
-</Section>
+  </Section>
+  
 );
+
+
+
 
 export default Herramientas;
