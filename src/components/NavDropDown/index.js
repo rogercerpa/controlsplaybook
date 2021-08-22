@@ -5,9 +5,7 @@ import { FaLocationArrow } from "react-icons/fa"
 import { DropDownContainer, DropDownIcon, DropDownItem, DropDownItemDesc, DropDownItemTitle, DropDownTextContainer } from './NavDropDown'
 
 const NavDropDown = (props) => (
-  <div>
-    NavDropDown
-  </div>
+  <div>test</div>
 );
 
 export default NavDropDown

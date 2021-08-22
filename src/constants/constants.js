@@ -8,6 +8,7 @@ export const servicios = [
       tags: ['BOM', 'Documentos Trabajados'],
     source: 'https://google.com',
     visit: 'https://google.com',
+    leadTime: '24-48 horas',
     id: 0,
   },
   {
@@ -19,6 +20,7 @@ export const servicios = [
     tags: ['BOM', 'Documentos Trabajados'],
     source: 'https://google.com',
     visit: 'https://google.com',
+    leadTime: '2-3 dias',
     id: 1,
   },
   {
@@ -30,6 +32,7 @@ export const servicios = [
       tags: ['BOM', 'Diseño de control (Planos)', 'Documentos Trabajados' ],
     source: 'https://google.com',
     visit: 'https://google.com',
+    leadTime: '2-3 dias',
     id: 2,
   },
   {
@@ -41,6 +44,7 @@ export const servicios = [
     tags: ['BOM', 'Diseño de control (Planos)', 'Documentos Trabajados'],
     source: 'https://google.com',
     visit: 'https://google.com',
+    leadTime: '3-4 dias',
     id: 3,
   },
     {
@@ -51,7 +55,8 @@ export const servicios = [
       image: '/images/diagrams1.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+      visit: 'https://google.com',
+    leadTime: '24-48 horas',
     id: 3,
   },
       {
@@ -62,7 +67,8 @@ export const servicios = [
         image: '/images/QC1.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+        visit: 'https://google.com',
+    leadTime: '24-48 horas',
     id: 3,
   },
 ];
