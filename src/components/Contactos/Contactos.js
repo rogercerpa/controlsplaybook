@@ -1,12 +1,12 @@
 import React from 'react';
 
 import { Section, SectionDivider, SectionTitle, SectionText } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { Box, Boxes, BoxNum, BoxText } from './ContactosStyles';
 import { contactos } from '../../constants/constants';
 
 
 
-const Acomplishments = () => (
+const Contactos = () => (
   <Section>
     <SectionTitle>Contactos</SectionTitle>
         <SectionText>Lista de contactos de los diferentes grupos de Diseño & Aplicaciones, enfocados en controles de iluminación:</SectionText>
@@ -24,4 +24,4 @@ const Acomplishments = () => (
  </Section>
 );
 
-export default Acomplishments;
+export default Contactos;

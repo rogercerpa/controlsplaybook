@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ServiciosStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { servicios } from '../../constants/constants';
 
-const Projects = () => (
+const Servicios = () => (
   <Section nopadding id="servicios">
     <SectionDivider />
     <SectionTitle main>Servicios</SectionTitle>
@@ -52,4 +52,4 @@ const Projects = () => (
   </Section>
 );
 
-export default Projects;
+export default Servicios;

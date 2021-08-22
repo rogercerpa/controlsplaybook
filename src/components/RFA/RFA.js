@@ -1,13 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './RFAStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { RequestForAssistance } from '../../constants/constants';
 import Button from '../../styles/GlobalComponents/Button';
 
 const TOTAL_CAROUSEL_COUNT = RequestForAssistance.length;
 
-const Timeline = () => {
+const RFA = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
@@ -119,4 +119,4 @@ const Timeline = () => {
   );
 };
 
-export default Timeline;
+export default RFA;

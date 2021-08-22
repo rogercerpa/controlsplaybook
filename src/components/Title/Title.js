@@ -2,9 +2,9 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection } from './TitleStyles';
 
-const Hero = (props) => (
+const Title = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
@@ -20,4 +20,4 @@ const Hero = (props) => (
 </Section>
 );
 
-export default Hero;
+export default Title;

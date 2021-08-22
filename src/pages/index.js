@@ -1,9 +1,9 @@
-import Acomplishments from '../components/Acomplishments/Acomplishments';
+import Contactos from '../components/Contactos/Contactos';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
-import Hero from '../components/Hero/Hero';
-import Projects from '../components/Projects/Projects';
+import Title from '../components/Title/Title';
+import Servicios from '../components/Servicios/Servicios';
 import Herramientas from '../components/Herramientas/Herramientas';
-import Timeline from '../components/TimeLine/TimeLine';
+import RFA from '../components/RFA/RFA';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
@@ -11,13 +11,13 @@ const Home = () => {
   return (
     <Layout>
       <Section grid>
-        <Hero />
+        <Title />
         <BgAnimation />
       </Section>
-      <Timeline />
-      <Projects />
+      <RFA />
+      <Servicios />
       <Herramientas />
-      <Acomplishments />
+      <Contactos />
     </Layout>
   );
 };
