@@ -60,7 +60,7 @@ const Header = () =>  (
       </SocialIcons>
 
         <SocialIcons >
-        <a href="/Form" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }}>
+        <a href="/Form" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }}>
           <AiOutlineForm size="3rem" /><Span1>Forms Download</Span1>
         </a>
       </SocialIcons>

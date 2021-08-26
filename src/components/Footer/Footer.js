@@ -11,12 +11,25 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:000-000-0000">000-000-0000</LinkItem>
+          <LinkTitle>Controles Soporte técnico:</LinkTitle>
+          <LinkItem href="tel:(800) 535-2465">  (800) 535-2465</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>e-mail</LinkTitle>
-          <LinkItem href="roger.cerpa@acuitybrands.com">test@controlsplaybook.com</LinkItem>
+          
+          <LinkTitle>nLight Wired:</LinkTitle>
+          <LinkItem href="mailto:nLight-Support@acuitybrands.com" target="_blank">
+            nLight-Support@acuitybrands.com
+          </LinkItem>
+
+          <LinkTitle>nLight AIR:</LinkTitle>
+          <LinkItem href="mailto:nLightAIR-Support@acuitybrands.com" target="_blank">
+            nLightAIR-Support@acuitybrands.com
+          </LinkItem>
+
+          <LinkTitle>Sensor Switch:</LinkTitle>
+          <LinkItem href="mailto:SSI-Support@acuitybrands.com" target="_blank">
+            SSI-Support@acuitybrands.com
+          </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
@@ -38,7 +51,7 @@ const Footer = () => {
       </SocialIcons>
 
         <SocialIcons >
-            <a href="/Form" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }}>
+            <a href="/Form" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }}>
           <AiOutlineForm size="3rem" /><Span1>Forms Download</Span1>
         </a>
       </SocialIcons>

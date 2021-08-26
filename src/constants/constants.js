@@ -118,3 +118,17 @@ export const contactos = [
   { team: "Field Services", members: [''], id: 3 }
  
 ];
+
+export const forms = [
+
+{
+    id: 0,
+    title: "Secuencia de Operaciones",
+    subtitle:'Engineered for Productivity',
+    descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
+    features: ['PDF', 'Design', 'Quote'],
+    image: '',
+    link:'https://visual-3d.com/software/downloadvisualcontrols.aspx',
+  },
+
+];

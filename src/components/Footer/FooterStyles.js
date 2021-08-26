@@ -18,10 +18,10 @@ font-size: 0.8rem;
 `;
 
 export const LinkItem = styled.a`
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 15px;
+	line-height: 15px;
 	color: rgba(255, 255, 255, 0.75);
-	margin-bottom: 16px;
+	margin-bottom: 5px;
 	transition: .3s ease;
 	position: relative;
 	left: 0;
@@ -121,8 +121,8 @@ export const SocialContainer = styled.div`
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
-	grid-template-columns: repeat(3, minmax(85px, 220px));
-	gap: 40px;
+	grid-template-columns: repeat(3, minmax(85px, 300px));
+	gap: 35px;
   padding: 40px 0 28px;
 
 	@media ${props => props.theme.breakpoints.lg} {
@@ -144,7 +144,7 @@ export const LinkList = styled.ul`
 export const LinkColumn = styled.div`
 	display: flex;
 	flex-direction: column;
-	max-width: 220px;
+	max-width: 300px;
 	width: 100%;
 `
 export const LinkTitle = styled.h4`
