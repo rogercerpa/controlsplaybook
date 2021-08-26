@@ -27,7 +27,7 @@ const Form = () => {
                                 <Tag></Tag>
                             </TagList>
                             <UtilityList>
-                                <ExternalLinks href={link} target="_blank">Download</ExternalLinks>
+                                <ExternalLinks href={link} target="_blank">Descargar</ExternalLinks>
                             </UtilityList>
                       </BlogCard>  
                     ))}
