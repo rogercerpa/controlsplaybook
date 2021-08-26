@@ -18,8 +18,8 @@ const Form = () => {
                         <BlogCard key={id}>
                             <Img src={image} />
                             <TitleContent>
-                                <HeaderThree title>{title }</HeaderThree>
-                                <HeaderThree subTitle>{subtitle }</HeaderThree>
+                                <HeaderThree title={true}>{title}</HeaderThree>
+                                <HeaderThree subTitle={true}>{subtitle }</HeaderThree>
                                 <Hr />
                             </TitleContent>
                             <CardInfo></CardInfo>
