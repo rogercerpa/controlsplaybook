@@ -44,7 +44,7 @@ const Servicios = () => (
           <Tag>{leadTime}</Tag>
           <UtilityList>
             {/* <ExternalLinks href={visit}>Code</ExternalLinks> */}
-            <ExternalLinks href={source}>Request</ExternalLinks>
+            <ExternalLinks href={source} target="_blank">Request</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}

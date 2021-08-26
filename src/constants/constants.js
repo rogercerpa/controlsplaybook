@@ -123,12 +123,41 @@ export const forms = [
 
 {
     id: 0,
+    title: "SSO",
+    subtitle:'Secuencia de Operacion',
+    descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
+    features: ['PDF', 'Design', 'Quote'],
+    image: '/images/DownloadForm.jpg',
+    link:'/documents/dummy.pdf',
+  },
+  
+{
+    id: 1,
+    title: "RFA Request",
+    subtitle:'Instruciones para Ingresa un RFA',
+    descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
+    features: ['PDF', 'Design', 'Quote'],
+    image: '/images/DownloadForm.jpg',
+    link:'/documents/dummy.pdf',
+  },
+  
+{
+    id: 2,
+    title: "RFA Revision",
+    subtitle:'Instruciones para Ingresar una revision',
+    descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
+    features: ['PDF', 'Design', 'Quote'],
+    image: '/images/DownloadForm.jpg',
+    link:'/documents/dummy.pdf',
+  },
+  {
+    id: 3,
     title: "Secuencia de Operaciones",
     subtitle:'Engineered for Productivity',
     descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
     features: ['PDF', 'Design', 'Quote'],
-    image: '',
-    link:'https://visual-3d.com/software/downloadvisualcontrols.aspx',
+    image: '/images/DownloadForm.jpg',
+    link:'/documents/dummy.pdf',
   },
 
 ];
