@@ -127,7 +127,7 @@ export const downloads = [
     subtitle:'Secuencia de Operacion',
     descriptions: 'Complete el formulario de secuencia de operación para proporcionar al equipo del DAS todos los detalles relacionados con su proyecto de controles.' ,
     features: ['PDF', 'Design', 'Quote'],
-    image: '/images/DownloadForm.jpg',
+    image: '/images/BOM1.jpg',
     link:'/documents/dummy.pdf',
   },
   
@@ -137,7 +137,7 @@ export const downloads = [
     subtitle:'Instruciones para Ingresa un RFA',
     descriptions: 'Siga las instrucciones sobre cómo crear y RFA, ¡descargue la guía hoy!' ,
     features: ['PDF', 'Design', 'Quote'],
-    image: '/images/DownloadForm.jpg',
+    image: '/images/BOM1.jpg',
     link:'/documents/dummy.pdf',
   },
   
@@ -147,17 +147,17 @@ export const downloads = [
     subtitle:'Instruciones para Ingresar una revision',
     descriptions: 'Siga los pasos ilustrados en esta guía para ingresar una solicitud de revisión para su proyecto.' ,
     features: ['PDF', 'Design', 'Quote'],
-    image: '/images/DownloadForm.jpg',
+    image: '/images/BOM1.jpg',
     link:'/documents/dummy.pdf',
   },
-  {
-    id: 3,
-    title: "Secuencia de Operaciones",
-    subtitle:'Engineered for Productivity',
-    descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
-    features: ['PDF', 'Design', 'Quote'],
-    image: '/images/DownloadForm.jpg',
-    link:'/documents/dummy.pdf',
-  },
+  // {
+  //   id: 3,
+  //   title: "Secuencia de Operaciones",
+  //   subtitle:'Engineered for Productivity',
+  //   descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
+  //   features: ['PDF', 'Design', 'Quote'],
+  //   image: '/images/DownloadForm.jpg',
+  //   link:'/documents/dummy.pdf',
+  // },
 
 ];

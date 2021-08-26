@@ -8,7 +8,7 @@ const Form = () => {
     return (
         <Layout>
             <Section>
-                <SectionTitle>Descarga Hoy! las guías que necesita</SectionTitle>
+                <SectionTitle>Descarga Hoy! las guías que necesitas</SectionTitle>
                 <SectionText>Aquí encontrarás instrucciones desde cómo crear un RFA hasta qué información necesitas antes de solicitar un diseño de controles.</SectionText>
                 <Downloads />
             </Section>
