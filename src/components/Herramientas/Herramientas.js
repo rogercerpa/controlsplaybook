@@ -7,7 +7,7 @@ import { tools } from '../../constants/constants';
 
 
 const Herramientas = () =>  (
-  <Section id="tech">
+  <Section nopadding id="herramientas">
     <SectionDivider />
     <br />
     <SectionTitle>Herramientas</SectionTitle>
@@ -32,8 +32,6 @@ const Herramientas = () =>  (
   </Section>
   
 );
-
-
 
 
 export default Herramientas;

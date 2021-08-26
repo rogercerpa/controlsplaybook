@@ -7,7 +7,7 @@ import { contactos } from '../../constants/constants';
 
 
 const Contactos = () => (
-  <Section>
+  <Section nopadding id="contactos">
     <SectionTitle>Contactos</SectionTitle>
         <SectionText>Lista de contactos de los diferentes grupos de Diseño & Aplicaciones, enfocados en controles de iluminación:</SectionText>
     <Boxes>

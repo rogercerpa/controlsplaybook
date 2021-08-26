@@ -1,10 +1,10 @@
 import React from 'react';
-
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ServiciosStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { servicios } from '../../constants/constants';
 
 const Servicios = () => (
+
   <Section nopadding id="servicios">
     <SectionDivider />
     <SectionTitle main>Servicios</SectionTitle>
@@ -50,6 +50,7 @@ const Servicios = () => (
       ))}
     </GridContainer>
   </Section>
+  
 );
 
 export default Servicios;

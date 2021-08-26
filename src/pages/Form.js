@@ -1,39 +1,16 @@
 import React from 'react';
 import { Layout } from '../layout/Layout';
 import { Section, SectionText, SectionTitle } from '../styles/GlobalComponents';
-import { GridContainer, BlogCard, Img, TitleContent, HeaderThree, CardInfo, TagList, Tag, Hr, UtilityList, ExternalLinks } from '../components/Servicios/ServiciosStyles';
-import SOOForm from '../components/Form/SOOForm';
-import { forms } from '../constants/constants';
+import Downloads from '../components/Downloads/Downloads';
 
 
 const Form = () => {
     return (
-       
         <Layout>
             <Section>
-                <SectionTitle>Crea tu secuencia de operacion</SectionTitle>
-                <SectionText>Ingresa toda la informacion necesaria para tu diseno de control</SectionText>
-                <GridContainer>
-                    {forms.map(({id, title, subtitle, descriptions, features, image, link }) => (
-                        <BlogCard key={id}>
-                            <Img src={image} />
-                            <TitleContent>
-                                <HeaderThree title={true}>{title}</HeaderThree>
-                                <HeaderThree subTitle={true}>{subtitle }</HeaderThree>
-                                <Hr />
-                            </TitleContent>
-                            <CardInfo></CardInfo>
-                            <TagList>
-                                <Tag></Tag>
-                            </TagList>
-                            <UtilityList>
-                                <ExternalLinks href={link} target="_blank">Descargar</ExternalLinks>
-                            </UtilityList>
-                      </BlogCard>  
-                    ))}
-
-                </GridContainer>
-                {/* <SOOForm/> */}
+                <SectionTitle>Descarga Hoy! las guías que necesita</SectionTitle>
+                <SectionText>Aquí encontrarás instrucciones desde cómo crear un RFA hasta qué información necesitas antes de solicitar un diseño de controles.</SectionText>
+                <Downloads />
             </Section>
         </Layout>
     );

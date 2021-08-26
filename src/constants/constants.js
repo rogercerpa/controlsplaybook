@@ -119,13 +119,13 @@ export const contactos = [
  
 ];
 
-export const forms = [
+export const downloads = [
 
 {
     id: 0,
-    title: "SSO",
+    title: "SOO",
     subtitle:'Secuencia de Operacion',
-    descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
+    descriptions: 'Complete el formulario de secuencia de operación para proporcionar al equipo del DAS todos los detalles relacionados con su proyecto de controles.' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '/images/DownloadForm.jpg',
     link:'/documents/dummy.pdf',
@@ -135,7 +135,7 @@ export const forms = [
     id: 1,
     title: "RFA Request",
     subtitle:'Instruciones para Ingresa un RFA',
-    descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
+    descriptions: 'Siga las instrucciones sobre cómo crear y RFA, ¡descargue la guía hoy!' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '/images/DownloadForm.jpg',
     link:'/documents/dummy.pdf',
@@ -145,7 +145,7 @@ export const forms = [
     id: 2,
     title: "RFA Revision",
     subtitle:'Instruciones para Ingresar una revision',
-    descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
+    descriptions: 'Siga los pasos ilustrados en esta guía para ingresar una solicitud de revisión para su proyecto.' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '/images/DownloadForm.jpg',
     link:'/documents/dummy.pdf',
