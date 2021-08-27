@@ -132,3 +132,39 @@ export const IconContainer = styled.div`
     justify-content: space-between;
   }
 `
+
+export const FormContainer = styled.div`
+border-radius: 5px;
+padding: 20px;
+`
+export const Field1 = styled.input`
+width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+`
+export const Field2 = styled.select`
+width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+`
+export const Field3 = styled.input`
+width: 100%;
+height: 200px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+`
