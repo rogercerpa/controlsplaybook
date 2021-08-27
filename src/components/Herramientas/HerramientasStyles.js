@@ -118,7 +118,7 @@ export const ListParagraph = styled.p`
 `
 
 export const ListItem = styled.li`
-  max-width: 320px;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -161,4 +161,13 @@ export const ListIcon = styled.img`
     height: 32px;
     margin-bottom: 0px;
   }
+`
+export const TagList = styled.ul`
+display: flex;
+justify-content: space-around;
+padding: 2rem;
+`
+export const Tag = styled.li`
+color: #d8bfbf;
+font-size: 1.5rem;
 `

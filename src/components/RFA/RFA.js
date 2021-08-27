@@ -51,7 +51,7 @@ const RFA = () => {
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
-          {RequestForAssistance.map((item, index) => (
+          {RequestForAssistance.map(({item, index, text, step}) => (
             <CarouselMobileScrollNode key={index} final={index = TOTAL_CAROUSEL_COUNT -1}>
               <CarouselItem
                 index={index}
@@ -60,8 +60,8 @@ const RFA = () => {
                 onClick={(e) => handleClick(e, index)}
               ></CarouselItem>
               <CarouselItemTitle>
-                {item.year}
-                                  <CarouselItemImg
+                {step}
+                    <CarouselItemImg
                     width="208"
                     height="6"
                     viewBox="0 0 208 6"
@@ -91,15 +91,19 @@ const RFA = () => {
                       </linearGradient>
                     </defs>
                   </CarouselItemImg>
-
               </CarouselItemTitle>
-              <CarouselItemText>
-                {item.text}
-              </CarouselItemText>
+
+              { text.map((e, i) => (
+                <CarouselItemText key={i}>
+                {e}
+                </CarouselItemText>
+              ))}
+
             </CarouselMobileScrollNode>
           ))}
         </>
       </CarouselContainer>
+
       <CarouselButtons>
         {RequestForAssistance.map((item, index) => (
           <CarouselButton
@@ -113,7 +117,8 @@ const RFA = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <Button onClick={()=> window.location = "https://secure.acuitybrandslighting.net/login.aspx?ReturnUrl=http%3a%2f%2fproduct.ablagileblog.acuitybrandslighting.net%2findex.php%3futm_source%3dSmartNews+July+15+Product+Update&utm_medium=email&utm_term=&utm_content=Ordering+Info&utm_campaign=Vellum"}  >Aprende más!</Button>
+
+      <Button onClick={()=> window.location = "/RFACycle"}  >Aprende más!</Button>
       <SectionDivider />
     </Section>
   );

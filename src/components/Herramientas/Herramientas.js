@@ -1,6 +1,6 @@
 import React from 'react';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle, ListSubTitle } from './HerramientasStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, ListSubTitle, Tag, TagList } from './HerramientasStyles';
 import { tools } from '../../constants/constants';
 
 
@@ -20,8 +20,12 @@ const Herramientas = () =>  (
         <ListItem key={id}>
           <ListContainer>
             <ListTitle>{title}</ListTitle>
-            <ListSubTitle>{subtitle}</ListSubTitle>
-            <ListParagraph>{descriptions}</ListParagraph>
+              <ListSubTitle>{subtitle}</ListSubTitle>
+              <br />
+              <ListParagraph>{descriptions}</ListParagraph>
+              <TagList>
+                <Tag>{features}</Tag>
+              </TagList>
           </ListContainer>
           </ListItem>
         </a>

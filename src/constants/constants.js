@@ -53,7 +53,7 @@ export const servicios = [
     description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
     subdescriptions: [ ''  ],
       image: '/images/diagrams1.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
+    tags: ['Documentos Trabajados', 'Diagramas'],
     source: 'https://secure.acuitybrandslighting.net/login.aspx?ReturnUrl=http%3a%2f%2fproduct.ablagileblog.acuitybrandslighting.net%2findex.php%3futm_source%3dSmartNews+July+15+Product+Update&utm_medium=email&utm_term=&utm_content=Ordering+Info&utm_campaign=Vellum',
       visit: 'https://google.com',
     leadTime: '24-48 horas',
@@ -65,7 +65,7 @@ export const servicios = [
     description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
     subdescriptions: [ ''  ],
         image: '/images/QC1.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
+    tags: ['Sugerencias', 'Guia', 'Documentos Trabajados'],
     source: 'https://secure.acuitybrandslighting.net/login.aspx?ReturnUrl=http%3a%2f%2fproduct.ablagileblog.acuitybrandslighting.net%2findex.php%3futm_source%3dSmartNews+July+15+Product+Update&utm_medium=email&utm_term=&utm_content=Ordering+Info&utm_campaign=Vellum',
         visit: 'https://google.com',
     leadTime: '24-48 horas',
@@ -74,11 +74,31 @@ export const servicios = [
 ];
 
 export const RequestForAssistance = [
-  { year: "Cliente", text: 'Gather information', },
-  { year: "Agencia", text: 'Compile information', },
-  { year: "DAS", text: 'Design controls', },
-  { year: "RFA", text: 'Upload file and Create BOM', },
-  { year: "QUOTE", text: 'Submit for pricing and order', },
+  {
+    id: 0,
+    step: "Cliente",
+    text: ['test0', 'test1', 'test2'],
+  },
+  {
+    id: 1,
+    step: "Agencia",
+    text: ['test0', 'test1', 'test2'],
+  },
+  {
+    id: 2,
+    step: "DAS",
+    text: ['test0', 'test1', 'test2'],
+  },
+  {
+    id: 3,
+    step: "RFA",
+    text: ['test0', 'test1', 'test2'],
+  },
+  {
+    id: 4,
+    step: "Cotizar",
+    text: ['test0', 'test1', 'test2'],
+  },
 ];
 
 export const tools = [
@@ -86,17 +106,17 @@ export const tools = [
     id: 0,
     title: "Visual Controls",
     subtitle:'Engineered for Productivity',
-    descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
-    features: ['PDF', 'Design', 'Quote'],
+    descriptions: 'El software Visual Controls facilita el diseño y la especificación de los Controles de Acuity Brands. ' ,
+    features: ['Aprende mas!'],
     image: '',
-    link:'https://visual-3d.com/software/downloadvisualcontrols.aspx',
+    link:'/VisualControls',
   },
   {
     id: 1,
     title: "Visual Lighting",
     subtitle:'Engineered for Productivity',
-    descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Luminarias.' ,
-    features: ['PDF', 'Design', 'Quote'],
+    descriptions: 'El software Visual Lighting facilita el diseño y la especificación de las Luminarias Acuity.' ,
+    features: ['Aprende mas!'],
     image: '',
     link:'https://visual-3d.com/software/visualhome.aspx',
   },
@@ -104,8 +124,8 @@ export const tools = [
     id: 2,
       title: "SOO",
     subtitle:'Secuencia de Operacion',
-    descriptions: 'Se recomienda seguir una secuencia de operaciones que indique exactamente cómo quiere el cliente que funcione el sistema. ' ,
-    features: ['PDF', 'Design', 'Quote'],
+    descriptions: 'La secuencia de operacion es lo que le da direccion a los disenos de controles. Una vez que sabes los requerimientos encontraras con faciladad los controles necesarios.' ,
+    features: ['Aprende mas!'],
       image: '',
     link:'/Form',
   },

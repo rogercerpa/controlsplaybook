@@ -62,8 +62,6 @@ const Contactos = () => (
           <button type='submit' disabled={isSubmitting}>Submit</button>
         </Form>   
       )}
-
-
       </Formik>
     </FormContainer>
     {/* <Boxes>
