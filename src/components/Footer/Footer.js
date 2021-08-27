@@ -52,7 +52,7 @@ const Footer = () => {
 
         <SocialIcons >
             <a href="/Form" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }}>
-          <AiOutlineForm size="3rem" /><Span1>Forms Download</Span1>
+          <AiOutlineForm size="3rem" /><Span1>Formularios</Span1>
         </a>
       </SocialIcons>
 

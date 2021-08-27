@@ -20,7 +20,6 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
-
 `
 export const BlogCard = styled.div`
   border-radius: 10px;

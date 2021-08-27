@@ -145,7 +145,7 @@ export const downloads = [
     id: 0,
     title: "SOO",
     subtitle:'Secuencia de Operacion',
-    descriptions: 'Complete el formulario de secuencia de operación para proporcionar al equipo del DAS todos los detalles relacionados con su proyecto de controles.' ,
+    descriptions: 'Crea tu secuencia de operaciones y solicita tu RFA hoy!' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '/images/Download1.jpg',
     link:'/documents/dummy.pdf',
@@ -153,9 +153,9 @@ export const downloads = [
   
 {
     id: 1,
-    title: "RFA Request",
+    title: "Crear RFA",
     subtitle:'Instruciones para Ingresa un RFA',
-    descriptions: 'Siga las instrucciones sobre cómo crear y RFA, ¡descargue la guía hoy!' ,
+    descriptions: 'Instrucciones para crear un RFA.' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '/images/Download1.jpg',
     link:'/documents/dummy.pdf',
@@ -163,21 +163,21 @@ export const downloads = [
   
 {
     id: 2,
-    title: "RFA Revision",
+    title: "Revision RFA",
     subtitle:'Instruciones para Ingresar una revision',
-    descriptions: 'Siga los pasos ilustrados en esta guía para ingresar una solicitud de revisión para su proyecto.' ,
+    descriptions: 'Instrucciones para solicitar una revision de tu proyecto' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '/images/Download1.jpg',
     link:'/documents/dummy.pdf',
   },
-  // {
-  //   id: 3,
-  //   title: "Secuencia de Operaciones",
-  //   subtitle:'Engineered for Productivity',
-  //   descriptions: 'El software Visual Controls facilita el diseño y la especificación de Acuity Controls.' ,
-  //   features: ['PDF', 'Design', 'Quote'],
-  //   image: '/images/DownloadForm.jpg',
-  //   link:'/documents/dummy.pdf',
-  // },
+  {
+    id: 3,
+    title: "Test1",
+    subtitle:'test test',
+    descriptions: 'test test test' ,
+    features: ['PDF', 'Design', 'Quote'],
+    image: '/images/Download1.jpg',
+    link:'/documents/dummy.pdf',
+  },
 
 ];
