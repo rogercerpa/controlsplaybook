@@ -158,7 +158,7 @@ export const downloads = [
     descriptions: 'Instrucciones para crear un RFA.' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '/images/Download1.jpg',
-    link:'/documents/dummy.pdf',
+    link:'/documents/RFA-Creation-V1.082721.pdf',
   },
   
 {
@@ -168,13 +168,13 @@ export const downloads = [
     descriptions: 'Instrucciones para solicitar una revision de tu proyecto' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '/images/Download1.jpg',
-    link:'/documents/dummy.pdf',
+    link:'/documents/RFA-Revision-V1.082721.pdf',
   },
   {
     id: 3,
-    title: "Test1",
-    subtitle:'test test',
-    descriptions: 'test test test' ,
+    title: "Importar BOM",
+    subtitle:'De RFA BOM a Cotizacion',
+    descriptions: 'Instrucciones para importar tu lista de materiales de controles a Agile quote.' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '/images/Download1.jpg',
     link:'/documents/dummy.pdf',
