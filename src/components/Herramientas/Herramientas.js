@@ -16,7 +16,7 @@ const Herramientas = () =>  (
     </SectionText>
     <List>
       {tools.map(({ id, title, subtitle, descriptions, features, image, link }) => (
-        <a href={link} target="_blank">
+        <a href={link}>
         <ListItem key={id}>
           <ListContainer>
             <ListTitle>{title}</ListTitle>
