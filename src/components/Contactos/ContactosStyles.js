@@ -186,9 +186,15 @@ export const Button1 = styled.button`
 color:#000000;
  background-color:#FFFFFF;
 }
+&:disabled{
+    background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
+    opacity: 0.5;
+    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+  }
 @media ${props => props.theme.breakpoints.sm}{
  a.button1{
   display:block;
   margin:0.4em auto;
 }
+
 `
