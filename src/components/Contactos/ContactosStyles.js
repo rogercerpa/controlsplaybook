@@ -157,9 +157,9 @@ width: 100%;
   margin-bottom: 16px;
   resize: vertical;
 `
-export const Field3 = styled.input`
+export const Field3 = styled.textarea`
 width: 100%;
-height: 200px;
+height: 120px;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -167,4 +167,28 @@ height: 200px;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  border: 1px solid #888;
+`
+export const Button1 = styled.button`
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#808080;
+ text-align:center;
+ transition: all 0.2s;
+&:hover {
+color:#000000;
+ background-color:#FFFFFF;
+}
+@media ${props => props.theme.breakpoints.sm}{
+ a.button1{
+  display:block;
+  margin:0.4em auto;
+}
 `

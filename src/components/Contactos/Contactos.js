@@ -1,7 +1,7 @@
 import React from 'react';
 import {Formik, Form, Field, ErrorMessage} from 'formik'
 import { Section, SectionDivider, SectionTitle, SectionText } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText, FormContainer, Field1, Field2, Field3 } from './ContactosStyles';
+import { Box, Boxes, BoxNum, BoxText, FormContainer, Field1, Field2, Field3, Button1 } from './ContactosStyles';
 import { contactos } from '../../constants/constants';
 
 
@@ -56,10 +56,10 @@ const Contactos = () => (
             <ErrorMessage name='agency' component='div' />
             
           <label for='message'>Mensaje</label>
-            <Field3 type='text' name='message' placeholder='Tu mensaje...' ></Field3>
+            <Field3 type='text' name='message' placeholder='Tu mensaje...'  ></Field3>
             <ErrorMessage name='message' component='div' />
             
-          <button type='submit' disabled={isSubmitting}>Submit</button>
+          <Button1 type='submit' disabled={true}>Submit</Button1>
         </Form>   
       )}
       </Formik>

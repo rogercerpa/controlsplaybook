@@ -148,7 +148,7 @@ export const downloads = [
     descriptions: 'Crea tu secuencia de operaciones y solicita tu RFA hoy!' ,
     features: ['PDF', 'Design', 'Quote'],
     image: '/images/Download1.jpg',
-    link:'/documents/dummy.pdf',
+    link: '/documents/SOO-V1.082921.pdf',
   },
   
 {
@@ -156,7 +156,7 @@ export const downloads = [
     title: "Crear RFA",
     subtitle:'Instruciones para Ingresa un RFA',
     descriptions: 'Instrucciones para crear un RFA.' ,
-    features: ['PDF', 'Design', 'Quote'],
+    features: [''],
     image: '/images/Download1.jpg',
     link:'/documents/RFA-Creation-V1.082721.pdf',
   },
@@ -166,7 +166,7 @@ export const downloads = [
     title: "Revision RFA",
     subtitle:'Instruciones para Ingresar una revision',
     descriptions: 'Instrucciones para solicitar una revision de tu proyecto' ,
-    features: ['PDF', 'Design', 'Quote'],
+    features: [''],
     image: '/images/Download1.jpg',
     link:'/documents/RFA-Revision-V1.082721.pdf',
   },
@@ -175,9 +175,9 @@ export const downloads = [
     title: "Importar BOM",
     subtitle:'De RFA BOM a Cotizacion',
     descriptions: 'Instrucciones para importar tu lista de materiales de controles a Agile quote.' ,
-    features: ['PDF', 'Design', 'Quote'],
+    features: ['PROXIMAMENTE DISPONIBLE!'],
     image: '/images/Download1.jpg',
-    link:'/documents/dummy.pdf',
+    link:'/',
   },
 
 ];

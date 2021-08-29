@@ -8,7 +8,7 @@ const Downloads = () => {
     return (
         <GridContainer>
                 
-            {downloads.map(({ id, title, subtitle, descriptions, image, link }) => (
+            {downloads.map(({ id, title, subtitle, descriptions, image, link, features }) => (
                 <BlogCard key={id}>
                     <Img src={image} />
                     <TitleContent>
@@ -18,7 +18,7 @@ const Downloads = () => {
                     </TitleContent>
                     <CardInfo>{descriptions}</CardInfo>
                     <TagList>
-                        <Tag></Tag>
+                        <Tag>{features}</Tag>
                     </TagList>
                     <UtilityList>
                         <ExternalLinks href={link} target="_blank">Descargar</ExternalLinks>
