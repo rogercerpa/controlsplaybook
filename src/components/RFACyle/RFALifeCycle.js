@@ -5,8 +5,7 @@ import {RFAprocess} from '../../constants/constants'
 const RFALifeCycle = () => {
     return (
         <GridContainer>
-            {RFAprocess.map(({ id, image, title, description, link1, link2, link1Title, link2Title }) => (
-            
+            {RFAprocess.map(({ id, image, title, description, link1, link2, link1Title, link2Title }) => ( 
             <GridItem key={id}>
                 <Image src={image} />
                 <SectionTitle>{title}</SectionTitle>
@@ -14,15 +13,10 @@ const RFALifeCycle = () => {
                  <UtilityList>
                         <ExternalLinks href={link1} target="_blank">{link1Title}</ExternalLinks>
                         <ExternalLinks href={link2} target="_blank">{link2Title}</ExternalLinks>
-                </UtilityList>   
+                    </UtilityList>
             </GridItem>
-         
-            
             ))}
-          
-
         </GridContainer>
     )
 }
-
 export default RFALifeCycle

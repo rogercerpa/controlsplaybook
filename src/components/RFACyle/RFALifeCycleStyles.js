@@ -16,7 +16,9 @@ flex-direction: row;
 }
 `
 export const GridItem = styled.div`
- 
+  border-style: inset;
+  padding: 15px;
+  margin: 5px;
 `
 //  flex-grow: 4;
 export const SectionTitle = styled.h3`
