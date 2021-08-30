@@ -9,13 +9,15 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <FooterWrapper>
+
       <LinkList>
         <LinkColumn>
           <LinkTitle>Controles Soporte técnico:</LinkTitle>
           <LinkItem href="tel:(800) 535-2465">  (800) 535-2465</LinkItem>
         </LinkColumn>
+
         <LinkColumn>
-          
+
           <LinkTitle>nLight Wired:</LinkTitle>
           <LinkItem href="mailto:nLight-Support@acuitybrands.com" target="_blank">
             nLight-Support@acuitybrands.com
@@ -31,7 +33,13 @@ const Footer = () => {
             SSI-Support@acuitybrands.com
           </LinkItem>
         </LinkColumn>
+
+        <LinkColumn>
+          <LinkTitle>FAQ </LinkTitle>
+          <LinkItem href='https://acuitybrands.force.com/s/' target="_blank">Preguntas Frecuentes</LinkItem>
+        </LinkColumn>
       </LinkList>
+
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>Lighting Controls made Easy</Slogan>
