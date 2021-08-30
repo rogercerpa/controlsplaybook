@@ -77,27 +77,27 @@ export const RequestForAssistance = [
   {
     id: 0,
     step: "Cliente",
-    text: ['test0', 'test1', 'test2'],
+    text: ['Planos', 'Requerimientos', ''],
   },
   {
     id: 1,
     step: "Agencia",
-    text: ['test0', 'test1', 'test2'],
+    text: ['Solicitud', 'Luminarias', ''],
   },
   {
     id: 2,
     step: "DAS",
-    text: ['test0', 'test1', 'test2'],
+    text: ['Diseño', 'Controles', ''],
   },
   {
     id: 3,
     step: "RFA",
-    text: ['test0', 'test1', 'test2'],
+    text: ['Documentos', 'Materiales', ''],
   },
   {
     id: 4,
     step: "Cotizar",
-    text: ['test0', 'test1', 'test2'],
+    text: ['Precios', '', ''],
   },
 ];
 
