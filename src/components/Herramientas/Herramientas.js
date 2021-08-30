@@ -12,7 +12,7 @@ const Herramientas = () =>  (
     <br />
     <SectionTitle>Herramientas</SectionTitle>
     <SectionText>
-      Los servicios que ofrece el equipo de DAS estan efocados en Exactitued, Eficiencia y Calidad!
+      Los servicios que ofrece el equipo de DAS estan efocados en Exactitud, Eficiencia y Calidad!
     </SectionText>
     <List>
       {tools.map(({ id, title, subtitle, descriptions, features, image, link }) => (
