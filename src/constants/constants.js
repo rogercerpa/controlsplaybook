@@ -148,7 +148,7 @@ export const downloads = [
     descriptions: 'Crea tu secuencia de operaciones y solicita tu RFA hoy!' ,
     features: [''],
     image: '/images/Download1.jpg',
-    link: '/documents/SOO-V1.082921.pdf',
+    link: '/documents/SOO-V1.083121.pdf',
   },
   
 {
