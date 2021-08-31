@@ -50,7 +50,7 @@ export const servicios = [
     {
       title: 'Diagramas',
       subtitle:"Cableados e Instrucciones",
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: "El servicio de Diagramas de cableado es normalmente utilizado en referencia a un proyecto existente donde se requiere algún tipo de diagrama donde ilustre como el sistema de controles va instalado.",
     subdescriptions: [ ''  ],
       image: '/images/diagrams1.jpg',
     tags: ['Documentos Trabajados', 'Diagramas'],
@@ -62,7 +62,7 @@ export const servicios = [
       {
         title: 'QC',
         subtitle:"Control de Calidad",
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: "El servicio de QC (Control de calidad) puede ser utilizado en ocasiones en donde la agencia trabaja en sus propios proyectos de controles y necesiten ayuda revisándolo.",
     subdescriptions: [ ''  ],
         image: '/images/QC1.jpg',
     tags: ['Sugerencias', 'Guia', 'Documentos Trabajados'],
