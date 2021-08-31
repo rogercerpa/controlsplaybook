@@ -193,7 +193,7 @@ export const RFAprocess = [
     id: 1,
     image: '/images/Nuevo-revision.jpg',
     title: 'RFA nuevo y revisiones',
-    description: 'Se genera un RFA nuevo para cada proyecto (para más detalles, descarga la guia hoy!).Si se necesitan cambios en un proyecto existente, se genera una revisión del RFA original (ver sección Formularios - SOLICITAR REVISIÓN DE UN RFA para más detalles).',
+    description: 'Se genera un RFA nuevo para cada proyecto (para más detalles, descarga la guia hoy!). Si se necesitan cambios en un proyecto existente, se genera una revisión del RFA original (para más detalles, descarga la guia hoy!).',
     link1: '/documents/RFA-Creation-V1.082721.pdf',
     link2: '/documents/RFA-Revision-V1.082721.pdf',
     link1Title: 'Crear RFA',
@@ -207,7 +207,7 @@ export const VCinfo = [
   {
     id: 0,
     title: 'Descarga y Instalacion',
-    description: 'El programa de Visual Controls facilita el proceso de diseñar y obtener una lista de material para los controles de luminarias. Abaja encontraras la pagina donde descargar, las instrucciones y un tutorial en Youtube. Empieza hoy tu diseño!',
+    description: 'El programa de Visual Controls facilita el proceso de diseñar y obtener una lista de material para los controles de luminarias. Abajo encontraras la pagina donde descargar el programa, las instrucciones de como usar y un tutorial en Youtube para que nada detenga tu aprendizaje. Empieza hoy tu diseño!',
     video: 'https://www.youtube.com/embed/lxAkJ9QCs_M?controls=1',
     instructions: 'https://visual-3d.com/software/Visual%20Controls%20Introduction.pdf',
     download: 'https://visual-3d.com/software/downloadvisualcontrols.aspx',
