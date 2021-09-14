@@ -96,3 +96,18 @@ transition: 0.5s;
 
 }
 `;
+
+export const IFrame = styled.iframe`
+width: 600px;
+height: 400px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+  width: 200px;
+  height: 150px;
+  }
+
+   @media ${(props) => props.theme.breakpoints.md} {
+  width: 300px;
+  height: 200px;
+  }
+`;
