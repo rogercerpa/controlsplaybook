@@ -19,13 +19,13 @@ const FormHeader = () =>  (
     <Div3>
 
       <SocialIcons >
-        <a href="https://www.acuitybrands.com/products/controls" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }}>
+        <a href="https://www.acuitybrands.com/products/controls" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }} rel="noopener">
           <RiProductHuntLine size="3rem" /><Span1>Acuity Controls</Span1>
         </a>
       </SocialIcons>
 
         <SocialIcons >
-        <a href="https://visual-3d.com/software/downloadvisualcontrols.aspx" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }}>
+        <a href="https://visual-3d.com/software/downloadvisualcontrols.aspx" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }} rel="noopener">
           <CgSoftwareDownload size="3rem" /><Span1>Visual Controls</Span1>
         </a>
       </SocialIcons>

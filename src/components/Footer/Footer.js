@@ -19,24 +19,24 @@ const Footer = () => {
         <LinkColumn>
 
           <LinkTitle>nLight Wired:</LinkTitle>
-          <LinkItem href="mailto:nLight-Support@acuitybrands.com" target="_blank">
+          <LinkItem href="mailto:nLight-Support@acuitybrands.com" target="_blank" rel="noopener">
             nLight-Support@acuitybrands.com
           </LinkItem>
 
           <LinkTitle>nLight AIR:</LinkTitle>
-          <LinkItem href="mailto:nLightAIR-Support@acuitybrands.com" target="_blank">
+          <LinkItem href="mailto:nLightAIR-Support@acuitybrands.com" target="_blank" rel="noopener">
             nLightAIR-Support@acuitybrands.com
           </LinkItem>
 
           <LinkTitle>Sensor Switch:</LinkTitle>
-          <LinkItem href="mailto:SSI-Support@acuitybrands.com" target="_blank">
+          <LinkItem href="mailto:SSI-Support@acuitybrands.com" target="_blank" rel="noopener">
             SSI-Support@acuitybrands.com
           </LinkItem>
         </LinkColumn>
 
         <LinkColumn>
           <LinkTitle>FAQ </LinkTitle>
-          <LinkItem href='https://acuitybrands.force.com/s/' target="_blank">Preguntas Frecuentes</LinkItem>
+          <LinkItem href='https://acuitybrands.force.com/s/' target="_blank" rel="noopener">Preguntas Frecuentes</LinkItem>
         </LinkColumn>
       </LinkList>
 
@@ -47,19 +47,19 @@ const Footer = () => {
         <SocialContainer>
 
       <SocialIcons >
-        <a href="https://www.acuitybrands.com/products/controls" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }}>
+        <a href="https://www.acuitybrands.com/products/controls" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }} rel="noopener">
           <RiProductHuntLine size="3rem" /><Span1>Acuity Controls</Span1>
         </a>
       </SocialIcons>
 
         <SocialIcons >
-        <a href="https://visual-3d.com/software/downloadvisualcontrols.aspx" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }}>
+        <a href="https://visual-3d.com/software/downloadvisualcontrols.aspx" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }} rel="noopener">
           <CgSoftwareDownload size="3rem" /><Span1>Visual Controls</Span1>
         </a>
       </SocialIcons>
 
         <SocialIcons >
-            <a href="/Form" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }}>
+            <a href="/Form" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }} rel="noopener">
           <AiOutlineForm size="3rem" /><Span1>Formularios</Span1>
         </a>
       </SocialIcons>
