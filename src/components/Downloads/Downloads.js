@@ -10,7 +10,7 @@ const Downloads = () => {
                 
             {downloads.map(({ id, title, subtitle, descriptions, image, link, features }) => (
                 <BlogCard key={id}>
-                    <Img src={image} />
+                    <Img src={image} alt="download-files" />
                     <TitleContent>
                         <HeaderThree title>{title}</HeaderThree>
                         <HeaderThree subTitle>{subtitle}</HeaderThree>
