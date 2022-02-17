@@ -1,7 +1,8 @@
 import React from 'react';
 import { AiOutlineForm  } from 'react-icons/ai';
-import { RiProductHuntLine } from 'react-icons/ri'
-import {CgSoftwareDownload} from 'react-icons/cg'
+import { RiProductHuntLine, RiFacebookBoxLine, RiInstagramLine, RiLinkedinLine, RiYoutubeLine, RiTwitterLine } from 'react-icons/ri'
+import { CgSoftwareDownload } from 'react-icons/cg'
+
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, Span1 } from './FooterStyles';
@@ -14,6 +15,9 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle>Controles Soporte técnico:</LinkTitle>
           <LinkItem href="tel:(800) 535-2465">  (800) 535-2465</LinkItem>
+
+          <LinkTitle>Danos tu Opinion:</LinkTitle>
+          <LinkItem href="https://forms.gle/qM1C82AggZxV1T757" target="_blank" rel="noopener">  Feedback</LinkItem>
         </LinkColumn>
 
         <LinkColumn>
@@ -42,8 +46,44 @@ const Footer = () => {
 
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Lighting Controls made Easy</Slogan>
+          {/* <Slogan>Lighting Controls made Easy</Slogan> */}
+
+          <SocialContainer>
+            
+            <SocialIcons >
+              <a href="https://www.facebook.com/acuitybrands" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }} rel="noopener">
+                <RiFacebookBoxLine size="3rem" />
+              </a>
+            </SocialIcons>
+
+            <SocialIcons >
+              <a href="https://www.instagram.com/acuitybrands/" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }} rel="noopener">
+                <RiInstagramLine size="3rem" />
+              </a>
+            </SocialIcons>
+
+             <SocialIcons >
+              <a href="https://www.linkedin.com/company/acuitybrands/mycompany/" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }} rel="noopener">
+                <RiLinkedinLine size="3rem" />
+              </a>
+            </SocialIcons>
+
+             <SocialIcons >
+              <a href="https://www.youtube.com/c/acuitybrands" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }} rel="noopener">
+                <RiYoutubeLine size="3rem" />
+              </a>
+            </SocialIcons>
+
+            <SocialIcons >
+              <a href="https://twitter.com/AcuityBrands" target="_blank" style={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white", padding: "0.8rem" }} rel="noopener">
+                <RiTwitterLine size="3rem" />
+              </a>
+            </SocialIcons>
+
+            </SocialContainer>
         </CompanyContainer>
+
+
         <SocialContainer>
 
       <SocialIcons >

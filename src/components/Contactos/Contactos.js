@@ -3,6 +3,7 @@ import {Formik, Form, Field, ErrorMessage} from 'formik'
 import { Section, SectionDivider, SectionTitle, SectionText } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText, FormContainer, Field1, Field2, Field3, Button1 } from './ContactosStyles';
 import { contactos } from '../../constants/constants';
+import Button from '../../styles/GlobalComponents/Button';
 
 
 
@@ -15,8 +16,9 @@ const Contactos = () => (
     <SectionText>Nos encantaría saber de usted, envíenos un mensaje si tiene preguntas o simplemente algun comentarios, Gracias.</SectionText>
     
     <FormContainer>
+      <Button onClick= {()=> window.location = "https://forms.gle/fVdy7zecQn4zJYyj8"}  >Contactanos!</Button>
 
-      <Formik
+      {/* <Formik
            initialValues={{ fullname: '', email: '', agency: '', message: '' }}
        validate={values => {
          const errors = {};
@@ -62,19 +64,10 @@ const Contactos = () => (
           <Button1 type='submit' disabled={true}>Submit</Button1>
         </Form>   
       )}
-      </Formik>
+      </Formik> */}
+
     </FormContainer>
-    {/* <Boxes>
-      {contactos.map(({team, id, members}) => (
-        <Box key={id}>
-          <BoxNum>{team}</BoxNum>
-          {members.map((member, i) => (
-            <BoxText key={i}>{member}</BoxText>
-          ))}
-          
-        </Box>
-      ))}
-    </Boxes> */}
+
  </Section>
 );
 
