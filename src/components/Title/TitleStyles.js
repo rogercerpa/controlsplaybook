@@ -16,4 +16,12 @@ export const LeftSection = styled.div`
 
     margin: 0 auto;
   }
+`
+  export const ButtonColumn = styled.div`
+	display: flex;
+   flex-direction: row;
+   gap: 20px;
+
+	
+	width: 100%;
 `;
