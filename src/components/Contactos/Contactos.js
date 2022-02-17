@@ -16,7 +16,7 @@ const Contactos = () => (
     <SectionText>Nos encantaría saber de usted, envíenos un mensaje si tiene preguntas o simplemente algun comentarios, Gracias.</SectionText>
     
     <FormContainer>
-      <Button onClick= {()=> window.location = "https://forms.gle/fVdy7zecQn4zJYyj8"}  >Contactanos!</Button>
+      <Button onClick= {()=> window.open("https://forms.gle/fVdy7zecQn4zJYyj8", "_blank")}>Contactanos!</Button>
 
       {/* <Formik
            initialValues={{ fullname: '', email: '', agency: '', message: '' }}

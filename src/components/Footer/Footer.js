@@ -46,8 +46,7 @@ const Footer = () => {
 
       <SocialIconsContainer>
         <CompanyContainer>
-          {/* <Slogan>Lighting Controls made Easy</Slogan> */}
-
+      
           <SocialContainer>
             
             <SocialIcons >

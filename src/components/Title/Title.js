@@ -14,7 +14,7 @@ const Title = (props) => (
       <SectionText>
         ¡Aquí encontrarás toda la información necesaria para aprender, diseñar y cotizar tu proyecto de controles de iluminación!
       </SectionText>
-      <Button onClick={()=> window.location = "https://www.acuitybrands.com/products/controls"} target="_blank" >Aprende más!</Button>
+      <Button onClick={()=> window.open("https://www.acuitybrands.com/products/controls", '_blank')} >Aprende más!</Button>
     </LeftSection>
     
 </Section>
